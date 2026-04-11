@@ -121,7 +121,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 				<NextIntlClientProvider messages={messages}>
 					<ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
 						<Navbar />
-						<main className="flex-1 pb-16 md:pb-0">{children}</main>
+						<main className="flex-1">{children}</main>
 						<Footer locale={locale} />
 						<FloatingButtons />
 						<Toaster />

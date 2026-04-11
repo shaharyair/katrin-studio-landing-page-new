@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function FloatingButtons() {
 	return (
-		<div className="fixed inset-e-3 bottom-20 z-50 flex flex-col gap-3 md:inset-e-6 md:bottom-6">
+		<div className="fixed inset-e-6 bottom-6 z-50 flex flex-col gap-3">
 			<Link
 				href={studioConfig.instagramUrl}
 				target="_blank"
