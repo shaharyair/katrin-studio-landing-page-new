@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { routing } from "@/i18n/routing";
 import { studioConfig } from "@/lib/studio-config";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
@@ -122,6 +123,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 				<NextIntlClientProvider messages={messages}>
 					<ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
 						<Analytics />
+						<SpeedInsights />
 						<Navbar />
 						<main className="flex-1">{children}</main>
 						<Footer locale={locale} />
