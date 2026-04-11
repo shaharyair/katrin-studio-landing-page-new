@@ -6,6 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { routing } from "@/i18n/routing";
 import { studioConfig } from "@/lib/studio-config";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
@@ -117,10 +119,11 @@ export default async function LocaleLayout({ children, params }: Props) {
 	return (
 		<html lang={locale} dir={dir} suppressHydrationWarning className={geistSans.variable}>
 			<body className="bg-background text-foreground flex min-h-full flex-col overflow-x-clip antialiased">
-				{/* Rendered before client component boundaries to avoid React 19 script hydration warning */}
 				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdString }} />
 				<NextIntlClientProvider messages={messages}>
 					<ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+						<Analytics />
+						<SpeedInsights />
 						<Navbar />
 						<main className="flex-1">{children}</main>
 						<Footer locale={locale} />
