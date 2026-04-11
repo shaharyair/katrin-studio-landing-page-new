@@ -49,6 +49,11 @@ export function Navbar() {
 	const pathname = usePathname();
 	const [menuOpen, setMenuOpen] = useState(false);
 
+	function handleMenuChange(open: boolean) {
+		setMenuOpen(open);
+		document.body.style.overflow = open ? "hidden" : "";
+	}
+
 	const scrolled = useSyncExternalStore(
 		(cb) => {
 			window.addEventListener("scroll", cb, { passive: true });
@@ -73,7 +78,7 @@ export function Navbar() {
 		<>
 			<header
 				className={cn(
-					"fixed inset-x-0 top-0 z-50 transition-all duration-300",
+					"fixed inset-x-0 top-0 z-40 transition-all duration-300",
 					transparent ? "bg-transparent" : "bg-background/95 backdrop-blur-md",
 					scrolled && !menuOpen && "shadow-sm",
 				)}
@@ -85,7 +90,7 @@ export function Navbar() {
 							href={`/${locale}`}
 							className="flex items-center"
 							onClick={() => {
-								setMenuOpen(false);
+								handleMenuChange(false);
 								window.scrollTo({ top: 0, behavior: "smooth" });
 							}}
 						>
@@ -131,11 +136,11 @@ export function Navbar() {
 							<Button
 								variant="ghost"
 								size="icon"
-								aria-label={menuOpen ? "Close menu" : "Open menu"}
-								onClick={() => setMenuOpen((o) => !o)}
+								aria-label="Open menu"
+								onClick={() => handleMenuChange(true)}
 								className={cn(transparent ? "text-white/80 hover:bg-white/10 hover:text-white" : "")}
 							>
-								{menuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+								<Menu className="size-5" />
 							</Button>
 						</div>
 					</div>
@@ -145,16 +150,21 @@ export function Navbar() {
 			{/* Mobile full-screen overlay */}
 			<div
 				className={cn(
-					"bg-background fixed inset-0 z-40 flex flex-col transition-all duration-300 ease-in-out md:hidden",
+					"bg-background fixed inset-0 z-60 flex flex-col transition-all duration-300 ease-in-out md:hidden",
 					menuOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0",
 				)}
 			>
+				<div className="flex h-16 items-center justify-end px-4">
+					<Button variant="ghost" size="icon" aria-label="Close menu" onClick={() => handleMenuChange(false)}>
+						<X className="size-5" />
+					</Button>
+				</div>
 				<nav className="flex flex-1 flex-col items-center justify-center gap-2">
 					{navLinks.map((link) => (
 						<Link
 							key={link.href}
 							href={link.href}
-							onClick={() => setMenuOpen(false)}
+							onClick={() => handleMenuChange(false)}
 							className="text-foreground/60 hover:text-foreground w-full py-4 text-center text-3xl font-light tracking-wide transition-colors"
 						>
 							{link.label}
@@ -163,7 +173,7 @@ export function Navbar() {
 
 					<div className="mt-8">
 						<Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 h-12 px-10 text-base font-semibold">
-							<Link href={`/${locale}#contact`} onClick={() => setMenuOpen(false)}>
+							<Link href={`/${locale}#contact`} onClick={() => handleMenuChange(false)}>
 								{t("bookClass")}
 							</Link>
 						</Button>
