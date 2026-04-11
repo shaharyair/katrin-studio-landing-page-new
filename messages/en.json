@@ -8,39 +8,39 @@
 	},
 	"hero": {
 		"headline": "Katrin's Studio",
-		"subline": "Pilates reformer training, TRX, and personalized fitness programs — with close, hands-on coaching every step of the way.",
+		"subline": "Reformer Pilates, TRX, and personal training with one coach who pays close attention.",
 		"cta": "Book a Class",
 		"ctaSecondary": "Learn More"
 	},
 	"services": {
 		"badge": "What We Offer",
 		"title": "Our Services",
-		"subtitle": "Expert-led training programs designed to strengthen, tone, and transform your body",
+		"subtitle": "Training built around what your body actually needs, led by Katrin every session.",
 		"bookNow": "Book this class",
 		"items": {
 			"reformer": {
 				"title": "Pilates Reformer",
-				"description": "Full-body conditioning on state-of-the-art reformer machines. Build core strength, improve posture, and achieve lean muscle tone in every session."
+				"description": "Full-body work on 7 reformers. You'll feel the difference in your posture and core within weeks."
 			},
 			"trx": {
 				"title": "TRX & Functional Training",
-				"description": "Suspension training that uses your body weight to develop strength, balance, flexibility, and core stability for real-world movement."
+				"description": "Suspension training using your own bodyweight. Builds functional strength, balance, and core stability."
 			},
 			"personal": {
 				"title": "Personal Training",
-				"description": "One-on-one sessions tailored entirely to your goals, fitness level, and schedule. Your body, your pace, your results."
+				"description": "One-on-one sessions built around your goals and schedule. Katrin adjusts every session as you get stronger."
 			},
 			"group": {
 				"title": "Group Classes",
-				"description": "Small, intimate sessions with group energy and personal attention. Maximum 8 participants per class — because everyone deserves to be seen."
+				"description": "Small groups, 8 people maximum. Enough energy to stay motivated, few enough that Katrin knows exactly where you are in your training."
 			}
 		}
 	},
 	"about": {
 		"badge": "Our Story",
 		"title": "A Studio Built on Passion and Precision",
-		"body1": "Katrin Studio was founded by Katrin Yair, a certified fitness trainer and graduate of Wingate Academic College. With expertise in strength training, functional movement, TRX, Pilates, and body sculpting, Katrin brings a holistic approach to every session.",
-		"body2": "Our studio is built on three pillars: professionalism, family atmosphere, and close personal guidance. Whether you're a complete beginner or an experienced athlete, you'll find a supportive second home here.",
+		"body1": "Katrin Yair is a certified fitness trainer and Wingate graduate. She coaches every client herself, with expertise in reformer Pilates, TRX, strength training, and body sculpting.",
+		"body2": "The studio is small on purpose. Whether it's your first session or you've been training for years, Katrin knows where you started and keeps pushing you forward.",
 		"stat1Value": "7",
 		"stat1Label": "Pilates Reformers",
 		"stat2Value": "500+",
@@ -50,31 +50,31 @@
 	},
 	"whyUs": {
 		"title": "What Sets Us Apart?",
-		"subtitle": "Expert instruction, professional equipment, and a welcoming community — everything you need to see real results.",
+		"subtitle": "Seven reformers, one dedicated coach, and members who keep coming back.",
 		"items": {
 			"equipment": {
 				"title": "Professional Equipment",
-				"description": "State-of-the-art reformers and professional-grade equipment for the best possible training experience."
+				"description": "Seven Pilates reformers and full TRX setup. Everything you need, nothing you don't."
 			},
 			"instructors": {
 				"title": "Expert Instructors",
-				"description": "Certified professionals with years of experience who are dedicated to your progress and safety."
+				"description": "Katrin coaches every session herself. Not a rotating staff, one person who knows your body and your progress."
 			},
 			"community": {
 				"title": "Welcoming Community",
-				"description": "A supportive, inclusive environment where beginners and advanced athletes train side by side."
+				"description": "Most members have been coming for over a year. You'll understand why on your first visit."
 			}
 		}
 	},
 	"cta": {
-		"title": "Ready to Start Your Journey?",
-		"subtitle": "Join hundreds of members who have transformed their bodies and lives — and be next.",
-		"button": "Contact Us Today"
+		"title": "Want to Give It a Try?",
+		"subtitle": "Send us a message and we'll get back to you the same day.",
+		"button": "Get in Touch"
 	},
 	"testimonials": {
 		"badge": "What Members Say",
 		"title": "Real Results, Real Stories",
-		"subtitle": "Hundreds of members have transformed their bodies and lives — your story is next.",
+		"subtitle": "From back pain relief to personal bests. Here's what members say.",
 		"items": {
 			"1": {
 				"name": "Michal R.",
@@ -89,14 +89,14 @@
 			"3": {
 				"name": "Noa S.",
 				"detail": "Group Classes · 6 months",
-				"body": "The small group classes are perfect – intimate enough for personal attention but still fun and social. My core strength and flexibility have improved beyond what I thought possible."
+				"body": "The small group classes are exactly what I was looking for. Intimate enough for personal attention but still fun and social. My core strength and flexibility improved beyond what I thought possible."
 			}
 		}
 	},
 	"contact": {
 		"badge": "Get in Touch",
-		"title": "Start Your Transformation",
-		"subtitle": "Fill in your details and we'll get back to you within 24 hours to schedule your first session.",
+		"title": "Get in Touch",
+		"subtitle": "Leave your details and we'll get back to you within 24 hours to set up your first session.",
 		"addressLabel": "Address",
 		"phoneLabel": "Phone",
 		"emailLabel": "Email",
@@ -112,7 +112,7 @@
 			"phone": "Phone Number",
 			"phonePlaceholder": "05X-XXXXXXX",
 			"message": "Message",
-			"messagePlaceholder": "Tell us about your fitness goals or any questions you have..."
+			"messagePlaceholder": "Tell us about your goals or any questions you have..."
 		},
 		"submit": "Send Message",
 		"submitting": "Sending...",
@@ -132,12 +132,12 @@
 	},
 	"blog": {
 		"title": "Fitness & Wellness Blog",
-		"subtitle": "Expert articles on Pilates, functional training, and living your healthiest life",
+		"subtitle": "Articles on Pilates, training, and how to move better.",
 		"readMore": "Read Article",
 		"backToBlog": "Back to Blog",
 		"publishedOn": "Published on",
-		"ctaTitle": "Ready to Start Your Journey?",
-		"ctaBody": "Join us at Katrin Studio for expert-led Pilates and fitness classes.",
+		"ctaTitle": "Want to Give It a Try?",
+		"ctaBody": "Come train with Katrin at the studio in Afula.",
 		"ctaButton": "Book a Class"
 	},
 	"accessibility": {
@@ -158,7 +158,7 @@
 		"reset": "Reset All"
 	},
 	"footer": {
-		"tagline": "Katrin's Studio — Pilates & fitness in Afula.",
+		"tagline": "Katrin's Studio. Pilates & fitness in Afula.",
 		"quickLinks": "Quick Links",
 		"contact": "Contact",
 		"followUs": "Follow Us",
