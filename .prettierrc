@@ -1,0 +1,11 @@
+{
+	"plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"],
+	"arrowParens": "always",
+	"bracketSpacing": true,
+	"insertPragma": false,
+	"printWidth": 150,
+	"proseWrap": "always",
+	"requirePragma": false,
+	"trailingComma": "all",
+	"useTabs": true
+}

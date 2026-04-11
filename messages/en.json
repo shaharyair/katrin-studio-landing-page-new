@@ -1,0 +1,151 @@
+{
+	"nav": {
+		"home": "Home",
+		"services": "Services",
+		"blog": "Blog",
+		"contact": "Contact",
+		"bookClass": "Book a Class"
+	},
+	"hero": {
+		"headline": "Katrin's Studio",
+		"subline": "Pilates reformer training, TRX, and personalized fitness programs — with close, hands-on coaching every step of the way.",
+		"cta": "Book a Class",
+		"ctaSecondary": "Learn More"
+	},
+	"services": {
+		"badge": "What We Offer",
+		"title": "Our Services",
+		"subtitle": "Expert-led training programs designed to strengthen, tone, and transform your body",
+		"bookNow": "Book this class",
+		"items": {
+			"reformer": {
+				"title": "Pilates Reformer",
+				"description": "Full-body conditioning on state-of-the-art reformer machines. Build core strength, improve posture, and achieve lean muscle tone in every session."
+			},
+			"trx": {
+				"title": "TRX & Functional Training",
+				"description": "Suspension training that uses your body weight to develop strength, balance, flexibility, and core stability for real-world movement."
+			},
+			"personal": {
+				"title": "Personal Training",
+				"description": "One-on-one sessions tailored entirely to your goals, fitness level, and schedule. Your body, your pace, your results."
+			},
+			"group": {
+				"title": "Group Classes",
+				"description": "Small, intimate sessions with group energy and personal attention. Maximum 8 participants per class — because everyone deserves to be seen."
+			}
+		}
+	},
+	"about": {
+		"badge": "Our Story",
+		"title": "A Studio Built on Passion and Precision",
+		"body1": "Katrin Studio was founded by Katrin Yair, a certified fitness trainer and graduate of Wingate Academic College. With expertise in strength training, functional movement, TRX, Pilates, and body sculpting, Katrin brings a holistic approach to every session.",
+		"body2": "Our studio is built on three pillars: professionalism, family atmosphere, and close personal guidance. Whether you're a complete beginner or an experienced athlete, you'll find a supportive second home here.",
+		"stat1Value": "10+",
+		"stat1Label": "Pilates Reformers",
+		"stat2Value": "500+",
+		"stat2Label": "Happy Members",
+		"stat3Value": "5★",
+		"stat3Label": "Average Rating"
+	},
+	"whyUs": {
+		"title": "What Sets Us Apart?",
+		"subtitle": "Expert instruction, professional equipment, and a welcoming community — everything you need to see real results.",
+		"items": {
+			"equipment": {
+				"title": "Professional Equipment",
+				"description": "State-of-the-art reformers and professional-grade equipment for the best possible training experience."
+			},
+			"instructors": {
+				"title": "Expert Instructors",
+				"description": "Certified professionals with years of experience who are dedicated to your progress and safety."
+			},
+			"community": {
+				"title": "Welcoming Community",
+				"description": "A supportive, inclusive environment where beginners and advanced athletes train side by side."
+			}
+		}
+	},
+	"cta": {
+		"title": "Ready to Start Your Journey?",
+		"subtitle": "Join hundreds of members who have transformed their bodies and lives — and be next.",
+		"button": "Contact Us Today"
+	},
+	"testimonials": {
+		"badge": "What Members Say",
+		"title": "Real Results, Real Stories",
+		"subtitle": "Hundreds of members have transformed their bodies and lives — your story is next.",
+		"items": {
+			"1": {
+				"name": "Michal R.",
+				"detail": "Reformer Pilates · 1 year",
+				"body": "I came to Katrin Studio after years of back pain. After just three months of reformer sessions my posture improved dramatically and the pain is almost gone. Katrin's personal guidance made all the difference."
+			},
+			"2": {
+				"name": "Tal B.",
+				"detail": "Personal Training · 8 months",
+				"body": "I've tried many places before, but nothing compares to the experience here. The equipment is top-notch, the atmosphere is warm and welcoming, and someone truly cares about your progress. I've never felt stronger."
+			},
+			"3": {
+				"name": "Noa S.",
+				"detail": "Group Classes · 6 months",
+				"body": "The small group classes are perfect – intimate enough for personal attention but still fun and social. My core strength and flexibility have improved beyond what I thought possible."
+			}
+		}
+	},
+	"contact": {
+		"badge": "Get in Touch",
+		"title": "Start Your Transformation",
+		"subtitle": "Fill in your details and we'll get back to you within 24 hours to schedule your first session.",
+		"addressLabel": "Address",
+		"phoneLabel": "Phone",
+		"emailLabel": "Email",
+		"whatsappLabel": "WhatsApp",
+		"hoursLabel": "Opening Hours",
+		"hoursSunThu": "Sun – Thu: 07:00 – 21:00",
+		"hoursFri": "Fri: 07:00 – 15:00",
+		"fields": {
+			"name": "Full Name",
+			"namePlaceholder": "Your full name",
+			"email": "Email Address",
+			"emailPlaceholder": "your@email.com",
+			"phone": "Phone Number",
+			"phonePlaceholder": "055-662-0441",
+			"message": "Message",
+			"messagePlaceholder": "Tell us about your fitness goals or any questions you have..."
+		},
+		"submit": "Send Message",
+		"submitting": "Sending...",
+		"success": "Message sent! We'll be in touch within 24 hours.",
+		"sendAnother": "Send Another Message",
+		"error": "Something went wrong. Please try again or contact us directly.",
+		"errors": {
+			"nameMin": "Name must be at least 2 characters",
+			"emailInvalid": "Invalid email address",
+			"required": "Required",
+			"phoneInvalid": "Please enter a valid Israeli phone number"
+		},
+		"address": "HaMelacha 25 Floor 2, Afula",
+		"phone": "055-6620441",
+		"email": "katrinyair@gmail.com",
+		"whatsapp": "+972 55-6620441"
+	},
+	"blog": {
+		"title": "Fitness & Wellness Blog",
+		"subtitle": "Expert articles on Pilates, functional training, and living your healthiest life",
+		"readMore": "Read Article",
+		"backToBlog": "Back to Blog",
+		"publishedOn": "Published on",
+		"ctaTitle": "Ready to Start Your Journey?",
+		"ctaBody": "Join us at Katrin Studio for expert-led Pilates and fitness classes.",
+		"ctaButton": "Book a Class"
+	},
+	"footer": {
+		"tagline": "Katrin's Studio — Pilates & fitness in Afula.",
+		"quickLinks": "Quick Links",
+		"contact": "Contact",
+		"followUs": "Follow Us",
+		"rights": "All rights reserved.",
+		"address": "HaMelacha 25 Floor 2, Afula"
+	}
+}
