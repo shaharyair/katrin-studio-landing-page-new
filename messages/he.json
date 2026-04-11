@@ -163,6 +163,9 @@
 		"contact": "צרי קשר",
 		"followUs": "עקבי אחרינו",
 		"rights": "כל הזכויות שמורות.",
-		"address": "המלאכה 25 קומה 2, עפולה"
+		"address": "המלאכה 25 קומה 2, עפולה",
+		"registrationNumber": "ע.מ. {number}",
+		"privacy": "מדיניות פרטיות",
+		"accessibilityStatement": "הצהרת נגישות"
 	}
 }

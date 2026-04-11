@@ -1,5 +1,6 @@
 export const studioConfig = {
 	siteUrl: "https://katrin.co.il",
+	registrationNumber: "025564147",
 	phone: "055-6620441",
 	phoneE164: "+972556620441",
 	email: "katrin@katrin.co.il",

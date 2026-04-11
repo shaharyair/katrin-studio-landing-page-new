@@ -66,10 +66,18 @@ export async function Footer({ locale }: Props) {
 				<Separator className="mb-6" />
 
 				<div className="text-muted-foreground flex flex-col items-center justify-between gap-2 text-xs sm:flex-row">
-					<span>
-						© {year} Katrin Studio. {t("rights")}
-					</span>
-					<div className="flex gap-4">
+					<div className="flex flex-col items-center gap-1 sm:items-start">
+						<span>
+							© {year} Katrin Studio. {t("rights")}
+						</span>
+					</div>
+					<div className="flex flex-wrap justify-center gap-4">
+						<Link href={`/${locale}/privacy`} className="hover:text-foreground transition-colors">
+							{t("privacy")}
+						</Link>
+						<Link href={`/${locale}/accessibility-statement`} className="hover:text-foreground transition-colors">
+							{t("accessibilityStatement")}
+						</Link>
 						<Link href="/en" className="hover:text-foreground transition-colors">
 							EN
 						</Link>

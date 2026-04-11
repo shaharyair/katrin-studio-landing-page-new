@@ -163,6 +163,9 @@
 		"contact": "Contact",
 		"followUs": "Follow Us",
 		"rights": "All rights reserved.",
-		"address": "HaMelacha 25 Floor 2, Afula"
+		"address": "HaMelacha 25 Floor 2, Afula",
+		"registrationNumber": "Reg. No. {number}",
+		"privacy": "Privacy Policy",
+		"accessibilityStatement": "Accessibility Statement"
 	}
 }
