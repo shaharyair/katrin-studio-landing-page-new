@@ -1,3 +1,4 @@
+import { AccessibilityWidget } from "@/components/accessibility-widget";
 import { FloatingButtons } from "@/components/floating-buttons";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
@@ -124,6 +125,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 						<main className="flex-1">{children}</main>
 						<Footer locale={locale} />
 						<FloatingButtons />
+						<AccessibilityWidget />
 						<Toaster />
 					</ThemeProvider>
 				</NextIntlClientProvider>

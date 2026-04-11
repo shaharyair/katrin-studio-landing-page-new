@@ -140,6 +140,23 @@
 		"ctaBody": "הצטרפי אלינו לשיעורי פילאטיס וכושר בהנחיית מומחים.",
 		"ctaButton": "לקביעת שיעור"
 	},
+	"accessibility": {
+		"openWidget": "פתח תפריט נגישות",
+		"title": "הגדרות נגישות",
+		"fontSize": "גודל גופן",
+		"fontIncrease": "הגדל גופן",
+		"fontDecrease": "הקטן גופן",
+		"fontSizeValue": {
+			"normal": "רגיל",
+			"lg": "גדול",
+			"xl": "גדול מאוד"
+		},
+		"highContrast": "ניגודיות גבוהה",
+		"invert": "היפוך צבעים",
+		"grayscale": "גווני אפור",
+		"highlightLinks": "הדגשת קישורים",
+		"reset": "אפס הכל"
+	},
 	"footer": {
 		"tagline": "הסטודיו של קאתרין – סטודיו לפילאטיס וכושר בעפולה.",
 		"quickLinks": "ניווט מהיר",

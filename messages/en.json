@@ -140,6 +140,23 @@
 		"ctaBody": "Join us at Katrin Studio for expert-led Pilates and fitness classes.",
 		"ctaButton": "Book a Class"
 	},
+	"accessibility": {
+		"openWidget": "Open accessibility menu",
+		"title": "Accessibility Settings",
+		"fontSize": "Font Size",
+		"fontIncrease": "Increase font size",
+		"fontDecrease": "Decrease font size",
+		"fontSizeValue": {
+			"normal": "Normal",
+			"lg": "Large",
+			"xl": "X-Large"
+		},
+		"highContrast": "High Contrast",
+		"invert": "Invert Colors",
+		"grayscale": "Grayscale",
+		"highlightLinks": "Highlight Links",
+		"reset": "Reset All"
+	},
 	"footer": {
 		"tagline": "Katrin's Studio — Pilates & fitness in Afula.",
 		"quickLinks": "Quick Links",
