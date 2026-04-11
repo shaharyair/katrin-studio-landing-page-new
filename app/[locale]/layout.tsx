@@ -107,7 +107,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 			},
 		],
 		hasMap: studioConfig.googleMapsUrl,
-		sameAs: [studioConfig.instagramUrl, studioConfig.facebookUrl],
+		sameAs: [studioConfig.instagramUrl],
 	};
 
 	// Sanitize < to \u003c per Next.js JSON-LD docs to prevent XSS
