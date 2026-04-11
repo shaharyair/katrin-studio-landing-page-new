@@ -110,7 +110,7 @@
 			"email": "Email Address",
 			"emailPlaceholder": "your@email.com",
 			"phone": "Phone Number",
-			"phonePlaceholder": "055-662-0441",
+			"phonePlaceholder": "05X-XXXXXXX",
 			"message": "Message",
 			"messagePlaceholder": "Tell us about your fitness goals or any questions you have..."
 		},
