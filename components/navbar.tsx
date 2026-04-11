@@ -94,7 +94,7 @@ export function Navbar() {
 								alt="Katrin Studio"
 								width={140}
 								height={67}
-								className={cn("h-9 w-auto transition-all", transparent || menuOpen ? "invert" : "dark:invert")}
+								className={cn("h-9 w-auto transition-all", transparent ? "invert" : "dark:invert")}
 								priority
 							/>
 						</Link>
