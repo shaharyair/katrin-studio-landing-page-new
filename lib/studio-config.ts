@@ -1,11 +1,11 @@
 export const studioConfig = {
 	siteUrl: "https://katrin.co.il",
+	registrationNumber: "025564147",
 	phone: "055-6620441",
 	phoneE164: "+972556620441",
 	email: "katrin@katrin.co.il",
 	whatsappUrl: "https://wa.me/972556620441",
 	instagramUrl: "https://www.instagram.com/katrinyair/",
-	facebookUrl: "https://facebook.com/katrin.studio",
 	googleMapsUrl: "https://maps.google.com",
 	address: {
 		street: "המלאכה 25",
