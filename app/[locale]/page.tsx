@@ -1,6 +1,7 @@
 import { About } from "@/components/about";
 import { ContactSection } from "@/components/contact-section";
 import { CtaBanner } from "@/components/cta-banner";
+import { Faq } from "@/components/faq";
 import { Hero } from "@/components/hero";
 import { Services } from "@/components/services";
 import { Testimonials } from "@/components/testimonials";
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const t = await getTranslations({ locale, namespace: "hero" });
 
 	const isHe = locale === "he";
-	const title = isHe ? "הסטודיו של קאתרין | פילאטיס וכושר" : "Katrin Studio | Pilates & Fitness";
+	const title = isHe ? "פילאטיס בעפולה | הסטודיו של קאתרין" : "Pilates in Afula | Katrin's Studio";
 
 	return {
 		title,
@@ -35,7 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	};
 }
 
-export default async function HomePage() {
+export default async function HomePage({ params }: Props) {
+	const { locale } = await params;
+
 	return (
 		<>
 			<Hero />
@@ -43,6 +46,7 @@ export default async function HomePage() {
 			<About />
 			<Testimonials />
 			<WhyUs />
+			<Faq locale={locale} />
 			<CtaBanner />
 			<ContactSection />
 		</>

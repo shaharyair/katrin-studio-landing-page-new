@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const isHe = locale === "he";
 	const siteName = isHe ? "הסטודיו של קאתרין" : "Katrin's Studio";
 	const titleTemplate = isHe ? "%s | הסטודיו של קאתרין" : "%s | Katrin's Studio";
-	const defaultTitle = isHe ? "הסטודיו של קאתרין | פילאטיס וכושר" : "Katrin's Studio | Pilates & Fitness";
+	const defaultTitle = isHe ? "פילאטיס בעפולה | הסטודיו של קאתרין" : "Pilates in Afula | Katrin's Studio";
 
 	return {
 		metadataBase: new URL(studioConfig.siteUrl),
@@ -75,6 +75,9 @@ export default async function LocaleLayout({ children, params }: Props) {
 
 	const messages = await getMessages();
 	const dir = locale === "he" ? "rtl" : "ltr";
+	const tTestimonials = await getTranslations({ locale, namespace: "testimonials.items" });
+
+	const testimonialKeys = ["1", "2", "3"] as const;
 
 	const localBusinessJsonLd = {
 		"@context": "https://schema.org",
@@ -83,6 +86,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 		description: "Premium Pilates reformer studio and fitness center offering reformer classes, TRX training, personal training, and group classes.",
 		url: studioConfig.siteUrl,
 		image: `${studioConfig.siteUrl}/images/studio/studio-1.webp`,
+		telephone: studioConfig.phoneE164,
 		address: {
 			"@type": "PostalAddress",
 			streetAddress: `${studioConfig.address.streetEn}, ${studioConfig.address.floorEn}`,
@@ -94,6 +98,12 @@ export default async function LocaleLayout({ children, params }: Props) {
 			latitude: studioConfig.address.coordinates.latitude,
 			longitude: studioConfig.address.coordinates.longitude,
 		},
+		areaServed: [
+			{ "@type": "City", name: "Afula" },
+			{ "@type": "City", name: "עפולה" },
+			{ "@type": "AdministrativeArea", name: "Jezreel Valley" },
+			{ "@type": "AdministrativeArea", name: "עמק יזרעאל" },
+		],
 		priceRange: "₪₪",
 		openingHoursSpecification: [
 			{
@@ -111,6 +121,19 @@ export default async function LocaleLayout({ children, params }: Props) {
 		],
 		hasMap: studioConfig.googleMapsUrl,
 		sameAs: [studioConfig.instagramUrl, studioConfig.facebookUrl],
+		aggregateRating: {
+			"@type": "AggregateRating",
+			ratingValue: "5",
+			reviewCount: String(testimonialKeys.length),
+			bestRating: "5",
+			worstRating: "1",
+		},
+		review: testimonialKeys.map((key) => ({
+			"@type": "Review",
+			reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+			author: { "@type": "Person", name: tTestimonials(`${key}.name`) },
+			reviewBody: tTestimonials(`${key}.body`),
+		})),
 	};
 
 	// Sanitize < to \u003c per Next.js JSON-LD docs to prevent XSS
