@@ -8,7 +8,7 @@
 	},
 	"hero": {
 		"headline": "Katrin's Studio",
-		"subline": "Reformer Pilates, TRX, and personal training in Afula — with one coach who pays close attention.",
+		"subline": "Reformer Pilates, TRX, and personal training in Afula, with one coach who pays close attention.",
 		"cta": "Book a Class",
 		"ctaSecondary": "Learn More"
 	},
@@ -164,7 +164,7 @@
 		"items": {
 			"location": {
 				"question": "Where is Katrin's Studio located?",
-				"answer": "The studio is at HaMelacha 25, Floor 2, in Afula. We welcome members from across the Jezreel Valley — Afula, Migdal HaEmek, Nazareth, Kfar Tavor and the surrounding communities."
+				"answer": "The studio is at HaMelacha 25, Floor 2, in Afula. We welcome members from across the Jezreel Valley, Afula, Migdal HaEmek, Nazareth, Kfar Tavor and the surrounding communities."
 			},
 			"reformerVsMat": {
 				"question": "What's the difference between reformer and mat Pilates?",
