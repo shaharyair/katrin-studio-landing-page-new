@@ -19,7 +19,7 @@ export function BlogCard({ title, description, date, slug, tag, locale, readMore
 
 	return (
 		<Link href={`/${locale}/blog/${slug}`} className="group block h-full">
-			<Card className="bg-card border-border hover:border-accent/50 hover:shadow-accent/10 h-full transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+			<Card className="bg-card border-border hover:border-accent/50 hover:ring-accent/20 h-full transition-all duration-300 hover:-translate-y-1 hover:ring-1">
 				<CardHeader className="pb-3">
 					<Badge variant="outline" className="border-accent/30 text-accent mb-3 w-fit text-xs">
 						{tag}

@@ -62,7 +62,7 @@ export function Hero() {
 						asChild
 						variant="outline"
 						size="lg"
-						className="h-12 border-white/40 bg-white/10 px-8 text-base font-medium text-white backdrop-blur-sm hover:bg-white/20"
+						className="h-12 border-white/40 bg-white/10 px-8 text-base font-medium text-white backdrop-blur-sm hover:border-white/60 hover:bg-white/20 hover:text-white dark:border-white/40 dark:bg-white/10 dark:hover:border-white/60 dark:hover:bg-white/20"
 					>
 						<Link href={`/${locale}#services`}>{t("ctaSecondary")}</Link>
 					</Button>

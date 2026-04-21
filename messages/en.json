@@ -8,7 +8,7 @@
 	},
 	"hero": {
 		"headline": "Katrin's Studio",
-		"subline": "Reformer Pilates, TRX, and personal training with one coach who pays close attention.",
+		"subline": "Reformer Pilates, TRX, and personal training in Afula, with one coach who pays close attention.",
 		"cta": "Book a Class",
 		"ctaSecondary": "Learn More"
 	},
@@ -156,6 +156,33 @@
 		"grayscale": "Grayscale",
 		"highlightLinks": "Highlight Links",
 		"reset": "Reset All"
+	},
+	"faq": {
+		"badge": "Frequently Asked",
+		"title": "Questions & Answers",
+		"subtitle": "Everything you wanted to know before your first class at our Afula studio.",
+		"items": {
+			"location": {
+				"question": "Where is Katrin's Studio located?",
+				"answer": "The studio is at HaMelacha 25, Floor 2, in Afula. We welcome members from across the Jezreel Valley, Afula, Migdal HaEmek, Nazareth, Kfar Tavor and the surrounding communities."
+			},
+			"reformerVsMat": {
+				"question": "What's the difference between reformer and mat Pilates?",
+				"answer": "Reformer Pilates uses a machine with a sliding carriage and spring resistance for controlled, varied exercises. Mat Pilates uses only body weight on a mat. Our studio specializes in reformer Pilates, which offers a wider range of exercises and personalized intensity."
+			},
+			"beginners": {
+				"question": "Is Pilates suitable for beginners?",
+				"answer": "Yes. Your first class includes a personal assessment with Katrin, adjustments to pace and difficulty, and the basic principles. No prior fitness background or special flexibility required."
+			},
+			"prenatalPostnatal": {
+				"question": "Can I do Pilates postpartum or during pregnancy?",
+				"answer": "Yes, with medical clearance. Pilates is one of the recommended methods for safe postpartum recovery and for staying fit and supporting posture during pregnancy. Katrin adapts each session to your stage and condition."
+			},
+			"groupSize": {
+				"question": "How many people are in a group class?",
+				"answer": "Up to 8 participants per group class. Small enough for personal posture corrections, big enough for a fun, community atmosphere."
+			}
+		}
 	},
 	"footer": {
 		"tagline": "Katrin's Studio. Pilates & fitness in Afula.",
