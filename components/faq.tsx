@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Badge } from "@/components/ui/badge";
 import { getTranslations } from "next-intl/server";
 
-const faqKeys = ["location", "reformerVsMat", "beginners", "prenatalPostnatal", "groupSize", "whatToBring"] as const;
+const faqKeys = ["location", "reformerVsMat", "beginners", "prenatalPostnatal", "groupSize"] as const;
 
 type Props = { locale: string };
 
