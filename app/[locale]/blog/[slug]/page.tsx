@@ -19,7 +19,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-	const { locale, slug } = await params;
+	const { locale, slug: raw } = await params;
+	const slug = decodeURIComponent(raw);
 	const post = getPostBySlug(locale, slug);
 
 	if (!post) return {};
@@ -43,7 +44,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BlogPostPage({ params }: Props) {
-	const { locale, slug } = await params;
+	const { locale, slug: raw } = await params;
+	const slug = decodeURIComponent(raw);
 	const t = await getTranslations({ locale, namespace: "blog" });
 	const post = getPostBySlug(locale, slug);
 
